@@ -21,7 +21,7 @@ abstract readonly class AbstractUser extends AbstractModel
         public ?string $lastName,
         public ?string $username,
         public bool $isBot,
-        public int $lastActivityTime,
+        public ?int $lastActivityTime,
     ) {
     }
 }
